@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
   box-sizing: border-box;
-  font-size: 16px;    /***Em alternativa utilizar 0.875em (14px/16px=0.875) que funciona da mesma forma se a predefinição do tamanho de letra média do browser for 16px como é costume.***/
+  font-size: 16px;
 }
 
 *,
@@ -13,4 +16,141 @@
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section-container {
+  border: 2px solid #aaa;
+  border-radius: 2em;
+  margin: 1em 1em;
+  padding: 1em;
+}
+
+.colors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.colors-item {
+  width: 300px;
+  margin: 0.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.papyrus {
+  background-color: #e3dcd1;
+}
+
+.beige {
+  background-color: #f0e9dd;
+}
+
+.mainred {
+  background-color: #f00a00;
+}
+
+.secondaryred {
+  background-color: #dc321e;
+}
+
+.blue {
+  background-color: #245773;
+}
+
+.orange {
+  background-color: #ff7700;
+}
+
+.yellow {
+  background-color: #ffaa00;
+}
+
+.colors-name {
+
+}
+
+.colors-code {
+
+}
+
+.fonts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fonts-item {
+  width: 50%;
+  padding: 0.5em;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.fonts-name {
+  text-decoration: underline;
+}
+
+.fonts-sample {
+  text-indent: 0.5em;
+}
+
+.fonts-sample.regular {
+
+}
+
+.fonts-sample.italic {
+  font-style: italic;
+}
+
+.fonts-sample.bold {
+  font-weight: 700;
+}
+
+
+.specifictext-container {
+  
+}
+
+.specifictext-description {
+
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.paragraph {
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.875rem;
 }
