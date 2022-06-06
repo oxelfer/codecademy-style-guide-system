@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400&display=swap');
+
+:root {
+  box-sizing: border-box;
+  font-size: 16px;    /***Em alternativa utilizar 0.875em (14px/16px=0.875) que funciona da mesma forma se a predefinição do tamanho de letra média do browser for 16px como é costume.***/
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
